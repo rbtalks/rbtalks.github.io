@@ -153,7 +153,17 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/palette</li>
+
+<li>$:/config/PageControlButtons/Visibility/$:/plugins/kookma/commander/buttons/pagecontrol</li>
+
 <li>$:/config/RelinkOnRename</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/delete</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions</li>
 
 <li>$:/core</li>
 
@@ -170,6 +180,8 @@ Error message and password prompt
 <li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
+
+<li>$:/palette</li>
 
 <li>$:/plugins/danielo515/ContextPlugin</li>
 
@@ -198,6 +210,8 @@ Error message and password prompt
 <li>$:/state/plugin-info-334910430-$:/core---1812962263</li>
 
 <li>$:/state/showeditpreview</li>
+
+<li>$:/state/ShowPaletteEditor</li>
 
 <li>$:/state/sidebar</li>
 
@@ -242,10 +256,6 @@ Error message and password prompt
 <li>$:/temp/NewTagName/refresh-838249148</li>
 
 <li>$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary</li>
-
-<li>$:/temp/search</li>
-
-<li>$:/temp/search/input</li>
 
 <li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html</li>
 
@@ -612,7 +622,7 @@ Error message and password prompt
     }
 }</pre>
 </div>
-<div created="20200810174405158" modified="20200810180502083" title="$:/config/Freelinks/Enable">
+<div created="20200810174405158" modified="20200810193110368" title="$:/config/Freelinks/Enable">
 <pre>yes</pre>
 </div>
 <div created="20200809054355350" modified="20200809054359626" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
@@ -624,8 +634,23 @@ Error message and password prompt
 <div created="20200809054353234" modified="20200809054353234" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
+<div created="20200810193149565" modified="20200810193149565" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/palette">
+<pre>show</pre>
+</div>
+<div created="20200810193214178" modified="20200810193214178" title="$:/config/PageControlButtons/Visibility/$:/plugins/kookma/commander/buttons/pagecontrol">
+<pre>hide</pre>
+</div>
 <div created="20200809053739546" modified="20200809053739546" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
+</div>
+<div created="20200810193519545" modified="20200810193519545" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/delete">
+<pre>show</pre>
+</div>
+<div created="20200810193253380" modified="20200810193253380" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<pre>hide</pre>
+</div>
+<div created="20200810193257904" modified="20200810193257904" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" name="Core" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.23-prerelease">
 <pre>{
@@ -10128,6 +10153,9 @@ Error message and password prompt
 <div title="$:/isEncrypted">
 <pre>no</pre>
 </div>
+<div created="20200810193024985" modified="20200810193458790" title="$:/palette">
+<pre>$:/palettes/Twilight</pre>
+</div>
 <div author="Danielo Rodrigez" bag="default" core-version="&gt;=5.1.0" created="20200304200213285" dependents="" description="Context search - provides visual highlight of search results" list="readme" modified="20200722062629918" plugin-type="plugin" revision="0" source="https://github.com/danielo515/TW5-contextPlugin" tags="$:/giffmex/stroll $:/giffmex/blinks" title="$:/plugins/danielo515/ContextPlugin" type="application/json" version="2.1.0">
 <pre>{
     &quot;tiddlers&quot;: {
@@ -11124,20 +11152,23 @@ button.tc-tiddlylink.tc-freelink, a.tc-tiddlylink.tc-freelink {
 <div created="20200810180040992" modified="20200810180040992" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
+<div created="20200810193438619" modified="20200810193438619" title="$:/state/ShowPaletteEditor">
+<pre>yes</pre>
+</div>
 <div created="20200810184837399" modified="20200810184931803" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20200809055440479" modified="20200809115651748" title="$:/state/tab--1410360712">
 <pre>$:/ak/plugins/TWCrossLinks/core/tagging</pre>
 </div>
-<div created="20200809054348319" modified="20200810173542032" title="$:/state/tab--1963855381">
-<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+<div created="20200809054348319" modified="20200810193514687" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Toolbars</pre>
 </div>
 <div created="20200810175848988" modified="20200810192252236" title="$:/state/tab-1528275152">
 <pre>$:/core/ui/DefaultSearchResultList</pre>
 </div>
-<div created="20200809053615569" modified="20200810191259598" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20200809053615569" modified="20200810193019333" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200809054621483" modified="20200809054621483" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -11145,19 +11176,19 @@ button.tc-tiddlylink.tc-freelink, a.tc-tiddlylink.tc-freelink {
 <div created="20200810175903549" modified="20200810175906509" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/System</pre>
 </div>
-<div created="20200809054238541" modified="20200810192711378" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200809054238541" modified="20200810193323621" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Open</pre>
 </div>
-<div created="20200809054350562" modified="20200809054350562" title="$:/state/tabs/controlpanel/toolbars-1345989671">
-<pre>$:/core/ui/ControlPanel/Toolbars/PageControls</pre>
+<div created="20200809054350562" modified="20200810193250445" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20200810190730413" list="disempowering [[unfathomably deep]] [[Compassion and Emptiness]]" modified="20200810192739683" title="$:/StoryList">
+<div created="20200810193348681" list="$:/ControlPanel Welcome [[Talks by Date]] [[Compassion and Emptiness]]" modified="20200810193508364" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20200809054405531" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/advanced-search $:/plugins/kookma/commander/buttons/pagecontrol $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions $:/_5n0p3/pageControl/downloadHTML $:/core/ui/Buttons/control-panel" modified="20200809054405531" title="$:/tags/PageControls">
+<div created="20200809054405531" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/advanced-search $:/plugins/kookma/commander/buttons/pagecontrol $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions $:/_5n0p3/pageControl/downloadHTML" modified="20200810193229834" title="$:/tags/PageControls">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -11248,12 +11279,6 @@ button.tc-tiddlylink.tc-freelink, a.tc-tiddlylink.tc-freelink {
 </div>
 <div created="20200809053621095" modified="20200809053624247" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre></pre>
-</div>
-<div created="20200810175840949" modified="20200810192249721" title="$:/temp/search">
-<pre>happiness</pre>
-</div>
-<div created="20200810175840951" modified="20200810192249721" title="$:/temp/search/input">
-<pre>happiness</pre>
 </div>
 <div created="20200809053619586" modified="20200809053619586" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.23/index.html" url="https://tiddlywiki.com/library/v5.1.23/index.html">
 <pre>loaded</pre>
